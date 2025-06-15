@@ -1,33 +1,34 @@
-LAB 3 Practica 2  
-
-nano backup
-chmod +x backup 
-nano backup
-./backup 
+nmtui
+clear
+ip a
+ping 192.168.60.7
+clear
+ping 192.168.60.1
+clear
+su root
+whoamai
+whoami
 clear
 ls
-ifconfig > touche.txt
+clear
+su root
 ls
-cat touche.txt
+clea
 clear
 ls
-rm touche.txt 
 clear
-nano IFCONFIG
-chmod +x IFCONFIG 
-nano IFCONFIG
-ls
-./IFCONFIG 
-nano IFCONFIG
-./IFCONFIG 
-nano IFCONFIG
+ssh-keygen -t ed25519 -C "Prueba" -f /home/20242286-ezequiel/
+ssh-keygen -t ed25519 -C "Prueba" -f /home/20242286-ezequiel/.ssh/
+ssh-keygen -t ed25519 -C "Prueba" -f /home/20242286-ezequiel/.ssh/CLAVE
+ls /.ssh/
+ls /home/20242286-ezequiel/.ssh/
+nano authorized_keys
 clear
 ls
-cd Escritorio/
+ls -a
+mv authorized_keys /.ssh/
+sudo mv authorized_keys /.ssh/
+sudo mv authorized_keys /home/20242286-ezequiel/.ssh/
 ls
-cat PRUEBA 
-clear
+cd /home/20242286-ezequiel/.ssh/
 ls
-cd ..
-ls
-history
