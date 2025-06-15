@@ -1,0 +1,12 @@
+!/bin/bash
+
+
+usuario=$(whoami)
+fecha=$(date +"%d-%m-%Y____%H:%M:%S")
+origen="/home/$usuario"
+destino="/home/$usuario/backup_$fecha.tar.gz"
+
+tar -czvf "$destino" "$origen"
+
+echo "Se ha creado exitosamente el backup en: " "$destino" 
+

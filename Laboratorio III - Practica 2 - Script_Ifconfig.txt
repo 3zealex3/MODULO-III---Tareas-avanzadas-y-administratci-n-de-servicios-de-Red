@@ -1,0 +1,11 @@
+#!/bin/bash
+
+usuario=$(whoami)
+destino="/home/$usuario/Escritorio/"
+
+echo "Se creara un archivo con datos de ifconfig, ¿que nombre desea ponerle?"
+read archivo 
+ifconfig > "$archivo"
+mv "$archivo" "$destino"
+
+echo "Se a copiado $archivo en: $destino"
