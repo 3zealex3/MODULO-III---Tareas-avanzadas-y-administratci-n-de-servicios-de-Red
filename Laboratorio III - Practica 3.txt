@@ -1,0 +1,33 @@
+LAB 3 Practica 2  
+
+nano backup
+chmod +x backup 
+nano backup
+./backup 
+clear
+ls
+ifconfig > touche.txt
+ls
+cat touche.txt
+clear
+ls
+rm touche.txt 
+clear
+nano IFCONFIG
+chmod +x IFCONFIG 
+nano IFCONFIG
+ls
+./IFCONFIG 
+nano IFCONFIG
+./IFCONFIG 
+nano IFCONFIG
+clear
+ls
+cd Escritorio/
+ls
+cat PRUEBA 
+clear
+ls
+cd ..
+ls
+history
