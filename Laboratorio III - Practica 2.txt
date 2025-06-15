@@ -1,5 +1,3 @@
-LAB 3 Practica 2  
-
 nano backup
 chmod +x backup 
 nano backup
